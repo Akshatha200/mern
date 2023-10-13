@@ -5,6 +5,7 @@ const Task2 = require('./Task2');
 const ConnectToMongo = require('./db');
 
 const port=3000;
+const a=i;
 
 app.use(express.json())
 app.use('/api/student',require('./router/studentrout'))
